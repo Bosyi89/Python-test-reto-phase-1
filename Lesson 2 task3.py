@@ -1,2 +1,9 @@
-print('#########\n#\t\t#\n#\t\t#\n#\t\t#\n#########')
-print('\n#\t\t#\n#\t\t#\n#########\n#\t\t#\n#\t\t#')
+a = 7
+b = 3
+print(a + b)
+print(a - b)
+print(a // b)
+print(a * b)
+print(a % b)
+print(a ** b)
+print(a / b)
