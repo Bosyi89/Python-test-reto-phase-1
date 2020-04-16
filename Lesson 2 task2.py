@@ -1,3 +1,3 @@
-a = 'sabo'
-b = 'serhii'
+a = 'Sabo'
+b = 'Serhii'
 print(a,''+ b, 'Hello!')
