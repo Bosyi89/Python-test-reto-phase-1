@@ -12,8 +12,8 @@
 # use only []
 
 
-a = input()
+a = input('Name:')
 if len(a) > 2:
 	print(a[0:2] + a[-2] + a[-1])
 if len(a) < 2:
-	print()
+	print('Empty String')
