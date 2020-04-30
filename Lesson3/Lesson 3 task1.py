@@ -11,11 +11,11 @@
 #Expected Result: Empty String
 # use only []
 
-a = input('Name:').strip()
-if len(a) > 2:
-    print(a[0:2] + a[-2] + a[-1])
-if len(a) == 2:
-    print(a[0:2] + a[-2] + a[-1])
-if len(a) < 2:
-    print('Empty String')
-    
+
+string1 = input('Введіть слово:')
+string2 = string1.strip()
+if len(string2) >= 2:
+	print(string2[0:2] + string2[-2] + string2[-1])
+else:
+	print('Empty String')
+print()
